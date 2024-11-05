@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Sekolah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header Section start -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="./image/LOGO (2).png" alt="Logo Sekolah" />
+        <h1>SDN 1 MONTONG BAAN</h1>
+      </div>
+
+      <!-- Burger Menu Icon for Mobile -->
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <!-- Navigation Menu -->
+      <nav>
+        <ul>
+          <li><a href="#selamat, pendidikan, bergabunglah">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#program">Program Sekolah</a></li>
+          <li><a href="#berita">Berita & Kegiatan</a></li>
+          <li><a href="#fasilitas">Fasilitas</a></li>
+          <li><a href="#prestasi">Prestasi Sekolah</a></li>
+          <li><a href="#pendaftaran">Daftar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header Section end -->
+
+  <!-- banner Section start -->
+
+  <section class="banner">
+    <div class="slides-container">
+      <div class="slide fade">
+        <img src="./image/home1.jpg" alt="Banner 1">
+        <div class="caption">Selamat Datang di Website Sekolah Kami</div>
+      </div>
+      <div class="slide fade">
+        <img src="./image/home2.jpg" alt="Banner 2">
+        <div class="caption">Pendidikan Terbaik untuk Masa Depan</div>
+      </div>
+      <div class="slide fade">
+        <img src="./image/home3.jpg" alt="Banner 3">
+        <div class="caption">Bergabunglah Bersama Kami!</div>
+      </div>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+  <!-- banner Section end -->
+
+  <!-- profil Section start -->
+  <section id="profile" class="profile-section">
+    <div class="profile-container">
+      <h2>Profil Sekolah</h2>
+      <p class="intro">
+        Sekolah kami berdedikasi untuk menyediakan pendidikan berkualitas tinggi bagi siswa-siswa dengan kurikulum yang
+        berfokus pada pengembangan karakter, kreativitas, dan kompetensi akademis.
+      </p>
+
+      <div class="profile-content">
+        <div class="profile-box">
+          <h3>Visi</h3>
+          <p>
+            Terwujudnya warga sekolah yang agamis, demokratis, berkarakter, maju dan berprestasi, berdaya saing, dan
+            peduli pada lingkungan.
+          </p>
+        </div>
+
+        <div class="profile-box">
+          <h3>Misi</h3>
+          <ul>
+            <li>Menguatkan keimanan dan ketakwaan kepada tuhan yang maha esa melalui pengamalan nilai-nilai agama dalam
+              kehidupan sehari-hari di sekolah.</li>
+            <li>Menyelenggarakan pendidikan yang dapat diakses oleh seluruh lapisan masyarakat tanpa membedakan status
+              ekonomi atau sosial, suku, agama, ras dan antargolongan.</li>
+            <li>Membiasakan hidup tertib dan disiplin, bekerja keras, pantang menyerah, percaya diri, jujur, bertanggung
+              jawab dan santun dalam kehidupan sehari-hari di sekolah sebagai implementasi pembentukan karakter unggul
+              bagi seluruh warga sekolah.</li>
+            <li>Menyelenggarakan pelajaran yang inovatif dan bermakna sesuai prinsip PAKEM melalui pemanfaatan TIK dan
+              penguatan literasi untuk mengoptimalkan pencapaian prestasi belajar oleh siswa.</li>
+            <li>Mengoptimalkan pembinaan sekolah didik berprestasi di sekolah untuk mendapatkan hasil terbaik dalam
+              lomba-lomba akademik dan nonakademik yang diselenggarakan oleh instansi di luar skolah.</li>
+            <li>Mengintegrasikan nilai-nilai hidup bersih dan sehat dan peduli lingkungan dalam pembelajaran dan
+              membiasaknya dalam kehidupan sehari-hari di sekolah.</li>
+          </ul>
+        </div>
+
+        <div class="profile-box">
+          <h3>Tujuan</h3>
+          <h4>Tujuan Umum</h4>
+          <p>
+            Meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia serta keterampilan untuk hidup mandiri
+            dan untuk mengikuti pendidikan lebih lanjut.
+          </p>
+          <h4>Tujuan Khusus</h4>
+          <p>Pada akhir tahun pelajaran 2024/2025 :</p>
+          <ul>
+            <li>Setiap lulusan telah terbiasa melaksanakan kewajiban agama sesuai kapasitasnya.</li>
+            <li>Menjadi SD pilihan pertama bagi masyarakat Desa Mt.Baan untuk menyekolahkan anak-anak usia sekolah
+              dasar. </li>
+            <li>Setiap warga sekolah menunjukan karakter tertib dan disiplin, bekerja keras, pantang menyerah, percaya
+              diri, jujur, bertanggung jawab dan santun.</li>
+            <li>mencapai ketuntasan belajar minimal 75 untuk setiap mata pelajaran.</li>
+            <li>mencapai sekolah rujukan bagi sekolah-sekolah lain ditingkat kecamatan.</li>
+            <li>Menjadi sekolah adiwiyata minimal di tingkat kabupaten.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- profil Section end -->
+
+  <!-- Program Sekolah Section start -->
+  <section id="program" class="program-section">
+    <div class="program-container">
+      <h2>Program Sekolah</h2>
+      <p class="program-intro">
+        Sekolah kami berkomitmen memberikan pengalaman belajar yang beragam dan bermakna bagi seluruh siswa. Melalui
+        berbagai program, kami berusaha menumbuhkan minat, keterampilan, dan potensi siswa baik di bidang akademik
+        maupun non-akademik. Program-program sekolah mencakup kegiatan pembelajaran di kelas, pengembangan karakter,
+        hingga kegiatan ekstrakurikuler yang memperkaya pengalaman siswa dalam berbagai bidang.
+      </p>
+
+      <div class="program-cards">
+        <div class="program-card">
+          <img src="./image/pramuka.jpg" alt="Program 1">
+          <h3>Program Pramuka</h3>
+          <p>Program Pramuka di sekolah kami bertujuan membentuk karakter kepemimpinan, kemandirian, dan disiplin pada
+            siswa. Kegiatan pramuka dilakukan secara rutin dengan beragam kegiatan menarik seperti pelatihan
+            keterampilan hidup, kepedulian sosial, serta petualangan alam. Melalui program ini, siswa diharapkan dapat
+            membangun rasa tanggung jawab, kebersamaan, dan kedisiplinan yang akan bermanfaat dalam kehidupan
+            sehari-hari.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="./image/sabtu budaya.jpg" alt="Program 2">
+          <h3>Program Sabtu Budaya</h3>
+          <p>Program Sabtu Budaya adalah inisiatif sekolah untuk memperkenalkan dan melestarikan kebudayaan Indonesia
+            kepada siswa. Setiap hari Sabtu, siswa diajak mengikuti berbagai kegiatan yang menampilkan keunikan budaya
+            lokal, seperti tarian tradisional, permainan rakyat, seni kriya, dan kuliner khas daerah. Melalui Program
+            Sabtu Budaya, siswa dapat belajar dan memahami nilai-nilai budaya bangsa, memperkuat rasa cinta tanah air,
+            serta menghargai keragaman yang ada di Indonesia. Program ini juga menjadi sarana bagi siswa untuk berkreasi
+            dan berinteraksi dengan lingkungan budaya secara langsung.</p>
+        </div>
+
+        <div class="program-card">
+          <img src="./image/literasi.jpg" alt="Program 3">
+          <h3>Program Literasi</h3>
+          <p>Program Literasi di sekolah kami bertujuan untuk meningkatkan minat baca dan kemampuan literasi siswa dalam
+            berbagai bidang. Program ini mencakup kegiatan membaca rutin, diskusi buku, menulis kreatif, dan lomba karya
+            tulis. Melalui Program Literasi, siswa diajak untuk mengenal dunia pengetahuan yang lebih luas,
+            mengembangkan keterampilan berpikir kritis, serta memperluas wawasan. Kami berharap program ini dapat
+            membentuk generasi yang cerdas, berwawasan luas, dan memiliki kemampuan literasi yang kuat untuk menghadapi
+            tantangan masa depan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Program Sekolah Section end -->
+
+  <!-- Berita & Kegiatan Section start -->
+  <section id="berita" class="news-section">
+    <div class="news-container">
+      <h2>Berita & Kegiatan</h2>
+      <p class="news-intro">
+        Simak berita dan kegiatan terbaru dari sekolah kami, mulai dari acara sekolah hingga pencapaian siswa-siswa
+        kami.
+      </p>
+
+      <div class="news-cards">
+        <div class="news-card">
+          <img src="./image/pembekalan.jpg" alt="Berita 1">
+          <h3>Pembekalan bhs.inggeris & bhs. arab</h3>
+          <p>Sekolah kami mengadakan pembeklan bhs.inggris & bhs.arab oleh mahasiswa kkn dari Universitas Hamzanwadi.</p>
+          <a href="#" class="read-more">Selengkapnya</a>
+        </div>
+
+        <div class="news-card">
+          <img src="./image/renang.jpg" alt="Berita 2">
+          <h3>Renang</h3>
+          <p>Kegiatan renang rutin setiap 1 kali dalam 1 bulan.</p>
+          <a href="#" class="read-more">Selengkapnya</a>
+        </div>
+
+        <div class="news-card">
+          <img src="./image/tari kreasi.jpg" alt="Berita 3">
+          <h3>Tari Kreasi</h3>
+          <p>Kegiatan Tari Kreasi di sabtu sore bersama mahasiswa kkn universitas hamzanwadi.</p>
+          <a href="#" class="read-more">Selengkapnya</a>
+        </div>
+
+        <div class="news-card">
+          <img src="./image/senam pagi.jpg" alt="Berita 4">
+          <h3>Senam Pagi</h3>
+          <p>Kegiatan senam pagi sebelum memulai kegiatan belajar mengajar di kelas.
+          </p>
+          <a href="#" class="read-more">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Berita & Kegiatan Section end -->
+
+  <!-- Fasilitas Sekolah Section start -->
+  <section id="fasilitas" class="facilities-section">
+    <div class="facilities-container">
+      <h2>Fasilitas Sekolah</h2>
+      <p class="facilities-intro">
+        Sekolah kami memiliki berbagai fasilitas lengkap yang mendukung kegiatan belajar mengajar serta pengembangan
+        diri siswa.
+      </p>
+
+      <div class="facilities-cards">
+        <div class="facility-card">
+          <img src="fasilitas1.jpg" alt="Perpustakaan">
+          <h3>Perpustakaan</h3>
+          <p>Perpustakaan dengan koleksi buku lengkap untuk mendukung pembelajaran siswa dan memperluas wawasan.</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="./image/lapangan.jpg" alt="Laboratorium Sains">
+          <h3>Lapangan</h3>
+          <p>Lapangan untuk para siswa berolahraga.</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="./image/toilet.jpg" alt="Ruang Olahraga">
+          <h3>Toilet</h3>
+          <p>toilet sekolah sekalian temoat wudhu siswa.</p>
+        </div>
+
+        <div class="facility-card">
+          <img src="./image/panggung sekolah.jpg" alt="Aula Sekolah">
+          <h3>Panggung Sekolah</h3>
+          <p>Panggung serbaguna untuk kegiatan sekolah,dan berbagai acara penting lainnya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fasilitas Sekolah Section end -->
+
+  <!-- Prestasi Sekolah Section start -->
+  <section id="prestasi" class="achievements-section">
+    <div class="achievements-container">
+      <h2>Prestasi Sekolah</h2>
+      <p class="achievements-intro">
+        Kami bangga dengan prestasi yang telah diraih oleh siswa-siswa dan guru-guru kami di berbagai bidang.
+      </p>
+
+      <div class="achievements-cards">
+        <div class="achievement-card">
+          <img src="prestasi1.jpg" alt="Prestasi 1">
+          <h3>Juara 1 Olimpiade Matematika Nasional</h3>
+          <p>Siswa kami berhasil meraih juara pertama dalam Olimpiade Matematika tingkat nasional tahun ini.</p>
+        </div>
+
+        <div class="achievement-card">
+          <img src="prestasi2.jpg" alt="Prestasi 2">
+          <h3>Juara Umum Lomba Cerdas Cermat</h3>
+          <p>Tim cerdas cermat sekolah kami mendapatkan juara umum dalam kompetisi cerdas cermat se-kota.</p>
+        </div>
+
+        <div class="achievement-card">
+          <img src="prestasi3.jpg" alt="Prestasi 3">
+          <h3>Medali Emas di Kejuaraan Atletik</h3>
+          <p>Salah satu siswa kami memenangkan medali emas dalam lomba lari 100 meter tingkat provinsi.</p>
+        </div>
+
+        <div class="achievement-card">
+          <img src="prestasi4.jpg" alt="Prestasi 4">
+          <h3>Penghargaan Sekolah Adiwiyata</h3>
+          <p>Sekolah kami menerima penghargaan sebagai sekolah Adiwiyata atas program lingkungan yang kami jalankan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Prestasi Sekolah Section end -->
+
+  <!-- Pendaftaran Section start -->
+  <section id="pendaftaran" class="registration-section">
+    <div class="registration-container">
+      <h2>Pendaftaran Siswa Baru</h2>
+      <p class="registration-intro">
+        Isi formulir di bawah ini untuk mendaftar sebagai siswa baru di sekolah kami.
+      </p>
+
+      <div class="responsive-iframe-container">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe0LVLfNy-ZiSOCMcN8xROk7vl-wldpN7OsfcPut_q8nBlDhw/viewform?embedded=true"
+          frameborder="0" marginheight="0" marginwidth="0" loading="lazy">
+          Memuat…
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pendaftaran Section end -->
+
+  <!-- Footer Section start -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <h3>Kontak Kami</h3>
+        <p>Alamat: Montongbaan, Kec.Sikur, Kabupaten Lombik Timur, Nusa Tenggara Bar.83662</p>
+        <p>Email: sdn1montongbaan@sekolah.com</p>
+        <p>Telepon: (021) 12345678</p>
+      </div>
+
+      <div class="footer-social">
+        <h3>Media Sosial</h3>
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">YouTube</a>
+      </div>
+
+      <div class="footer-rights">
+        <p>&copy; 2024 Sekolah SDN 1 MONTONGBAAN. Semua hak dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section end -->
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
